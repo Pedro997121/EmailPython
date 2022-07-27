@@ -1,6 +1,7 @@
 from time import sleep
 import pyautogui
 
+
 #Abrir navegador
 pyautogui.hotkey("win", "r"), pyautogui.write("Opera"), pyautogui.press("Enter")
 
@@ -17,8 +18,21 @@ pyautogui.click(x=185, y=165)
 sleep(1)
 
 #destinatário
-pyautogui.write("Destinatario.hotmail.com")
+pyautogui.write("ricardoacostabiguelini@gmail.com")
 pyautogui.press("Tab")
 
 #Assunto
 pyautogui.write("Assunto")
+pyautogui.press("Tab")
+
+#Mensagem
+pyautogui.write("""
+                
+                
+                
+                
+                
+                """)
+#Enviar email
+pyautogui.click(x=368, y=658)
+
