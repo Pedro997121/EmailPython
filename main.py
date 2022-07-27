@@ -18,7 +18,7 @@ pyautogui.click(x=185, y=165)
 sleep(1)
 
 #destinatário
-pyautogui.write("ricardoacostabiguelini@gmail.com")
+pyautogui.write("email@outlook.com")
 pyautogui.press("Tab")
 
 #Assunto
@@ -29,7 +29,7 @@ pyautogui.press("Tab")
 pyautogui.write("""
                 
                 
-                
+            *Mensagem*    
                 
                 
                 """)
